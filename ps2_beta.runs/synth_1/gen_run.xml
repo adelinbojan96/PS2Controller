@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1684336178" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/TheBigSource.dcp">
+  <File Type="PA-TCL" Name="TheBigSource.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="TheBigSource_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="TheBigSource_reports.tcl"/>
+  <File Type="RDS-RDS" Name="TheBigSource.vds"/>
+  <File Type="RDS-UTIL" Name="TheBigSource_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="TheBigSource_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="TheBigSource.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="TheBigSource_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="TheBigSource_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/CU_Outputs.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/CU_Outputs.vhd"/>
+        <Attr Name="ImportTime" Val="1683866772"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/CU_ROM.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/CU_ROM.vhd"/>
+        <Attr Name="ImportTime" Val="1683866752"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/MUX8TO1WHICHIS1BIT.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/MUX8TO1WHICHIS1BIT.vhd"/>
+        <Attr Name="ImportTime" Val="1684293750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/clk_sync.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/clk_sync.vhd"/>
+        <Attr Name="ImportTime" Val="1683867216"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/counter16bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/counter16bit.vhd"/>
+        <Attr Name="ImportTime" Val="1683866884"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/counter3bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/counter3bit.vhd"/>
+        <Attr Name="ImportTime" Val="1683866936"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/d_flip_flop.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/d_flip_flop.vhd"/>
+        <Attr Name="ImportTime" Val="1683866790"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/d_flip_flop1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/d_flip_flop2.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/decoder7sd.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/decoder7sd.vhd"/>
+        <Attr Name="ImportTime" Val="1683866822"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/display_buffer.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/display_buffer.vhd"/>
+        <Attr Name="ImportTime" Val="1684293748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/dmux8to1.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/dmux8to1.vhd"/>
+        <Attr Name="ImportTime" Val="1684293748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/enter_verif_unit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/enter_verif_unit.vhd"/>
+        <Attr Name="ImportTime" Val="1684293748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/eo_verif_unit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/eo_verif_unit.vhd"/>
+        <Attr Name="ImportTime" Val="1684293748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/fo_verif_unit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/fo_verif_unit.vhd"/>
+        <Attr Name="ImportTime" Val="1684293748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/modulo11_counter.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/modulo11_counter.vhd"/>
+        <Attr Name="ImportTime" Val="1684293748"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/mux8to1_8bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/mux8to1_8bit.vhd"/>
+        <Attr Name="ImportTime" Val="1684293750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/shift_register_11bit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/shift_register_11bit.vhd"/>
+        <Attr Name="ImportTime" Val="1684293750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/theComponents/validation_unit.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../theComponents/theComponents/validation_unit.vhd"/>
+        <Attr Name="ImportTime" Val="1684293750"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/top_level.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/testbench.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TheBigSource"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/constrain.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/TheBigSource.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
